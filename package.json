@@ -1,0 +1,20 @@
+{
+  "name": "res-uid",
+  "version": "0.1.0",
+  "description": "ReScript bindings for Preact",
+  "main": "index.js",
+  "scripts": {
+    "re:build": "rescript",
+    "re:start": "rescript build -w"
+  },
+  "author": "Harshal Patil",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "cuid": "^2.1.8",
+    "uuid": "^8.3.2"
+  }
+}
