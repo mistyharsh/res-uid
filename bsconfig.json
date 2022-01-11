@@ -5,6 +5,10 @@
     {
       "dir": "src",
       "subdirs": true
+    },
+    {
+      "dir": "test",
+      "type": "dev"
     }
   ],
   "package-specs": [
@@ -14,5 +18,6 @@
     }
   ],
   "suffix": ".bs.js",
-  "bs-dependencies": []
+  "bs-dependencies": [],
+  "bs-dev-dependencies": ["@glennsl/rescript-jest"]
 }
