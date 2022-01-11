@@ -1,6 +1,6 @@
 {
-  "name": "res-uid",
-  "namespace": "uid",
+  "name": "rescript-typed",
+  "namespace": false,
   "sources": [
     {
       "dir": "src",

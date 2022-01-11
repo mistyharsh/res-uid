@@ -1,7 +1,7 @@
 {
-  "name": "res-uid",
+  "name": "rescript-typed",
   "version": "0.1.0",
-  "description": "ReScript bindings for Preact",
+  "description": "ReScript bindings for Many Common Utilities",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -16,11 +16,11 @@
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
     "@glennsl/rescript-jest": "^0.9.0",
+    "@types/uuid": "^8.3.4",
     "babel-jest": "^27.4.6",
     "rescript": "^9.1.4"
   },
   "dependencies": {
-    "@types/uuid": "^8.3.4",
     "cuid": "^2.1.8",
     "uuid": "^8.3.2"
   }

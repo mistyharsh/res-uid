@@ -1,2 +1,2 @@
-# res-uid
-ReScript Bindings for CUID, UUID and Others
+# ReScript Typed
+ReScript Bindings for many common libraries.
