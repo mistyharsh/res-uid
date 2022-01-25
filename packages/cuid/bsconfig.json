@@ -1,14 +1,10 @@
 {
-  "name": "rescript-typed",
+  "name": "@retypes/cuid",
   "namespace": false,
   "sources": [
     {
       "dir": "src",
       "subdirs": true
-    },
-    {
-      "dir": "test",
-      "type": "dev"
     }
   ],
   "package-specs": [

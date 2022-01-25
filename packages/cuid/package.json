@@ -1,0 +1,30 @@
+{
+  "name": "@retypes/cuid",
+  "version": "1.0.0",
+  "description": "ReScript bindings for cuid",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "cuid": "^2.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistyharsh/rescript-typed.git"
+  },
+  "keywords": [
+    "cuid",
+    "id"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mistyharsh/rescript-typed/issues"
+  },
+  "homepage": "https://github.com/mistyharsh/rescript-typed#readme"
+}
