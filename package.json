@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "re:build": "npm run re:build --workspaces",
+    "build": "npm run re:build --workspaces",
     "test": "npm run test --workspaces"
   },
   "author": "Harshal Patil",
