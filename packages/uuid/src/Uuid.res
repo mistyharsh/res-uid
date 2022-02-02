@@ -1,14 +1,13 @@
 // A random seed has 16 bytes - Array of 16 random bytes (0-255)
-type randomSeed = (int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
-type byteUuid = randomSeed
+type tuple16 = (int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
 
 type optsRandom = {
-  random: randomSeed
+  random: tuple16
 }
 
 
 type optsRng = {
-  random: () => randomSeed
+  random: () => tuple16
 }
 
 
@@ -29,4 +28,4 @@ external v4Rng: optsRng => string = "v4"
 
 
 @module("uuid")
-external parse: string => byteUuid = "parse"
+external parse: string => tuple16 = "parse"
